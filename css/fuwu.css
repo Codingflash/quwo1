@@ -1,0 +1,314 @@
+body{
+    font-family: 微软雅黑;
+    background: rgb(240, 246, 242);
+}
+body,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* 右侧导航栏开始 */
+.ce{
+    width: 32px;
+    background: #191919;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    padding: 23px 0;
+    height: 100%;
+}
+.ce-list {
+    height: 115px;
+    text-align: center;
+    padding-top: 1px;
+    background: #191919;
+    border-bottom: solid 1px #cec19f;
+}
+.ce-list-img1{
+    width: 100%;
+    margin-top: 9px;
+}
+.ce-list-img2{
+    width: 100%;
+    margin-top: 9px;
+    display: none;
+}
+.ce-list-word{
+    margin: 0 auto;
+    font-size: 14px;
+    color: #7f6544;
+    margin-top: 5px;
+    width: 19px;
+    line-height: 15px;
+    height: 60px;
+}
+/* 右侧导航栏结束 */
+/* 头部开始 */
+.head{
+    width: 100%;
+    background: url(../imgs/head.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 1px;
+    padding-bottom:1px;
+}
+.head-center{
+    width: 73%;
+    height: 64.24px;
+    margin: 0 auto;
+    margin-top: 1%;
+    
+}
+.head-logo{
+    width: 27.8%;
+    float: left;
+}
+.head-logo img{
+    width: 100%;
+    display: block;
+}
+.head-right{
+    float: right;
+    width: 19.5%;
+}
+.head-right img{
+    width: 100%;
+    display: block;
+}
+.sousuo{
+    float: left;
+    width: 14.2%;
+    float: right;
+    text-indent: 1em;
+    border: solid 1px #727272;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+.sousuo-input{
+    width: 73%;
+    outline: none;
+    border: none;
+    background: transparent;
+    display: inline-block;
+    padding-top: 5px;
+}
+.suo{
+    margin-top: 4px;
+    outline: none;
+    position: absolute;
+}
+.menu{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.menu a{
+    font-size: 1.12em;
+    color: #000000;
+    font-weight: 600;
+    margin: 0 1% 0 1%;
+    /* margin-right: 3.8%; */
+    padding: 0.5% 2%;
+    width: 131px;
+}
+/* 头部结束 */
+/* 主体开始 */
+.body-center{
+    background: url("../imgs/bm_banner.jpg")center top no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+}
+.ml-center{
+    width: 92.6%;
+    margin: 0 auto;
+    padding-bottom: 12px;
+}
+.ml-weizhi{
+    height: 58px;
+    line-height: 58px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #5c5c5c;
+}
+.ml-weizhi a{
+    color: #5c5c5c;
+}
+.ml-weizhi span{
+    color: #7f6544;
+}
+.bm-center{
+    width: 650px;
+    margin: 0 auto;
+    height: 650px;
+    margin-top: 70px;
+    position: relative;
+    padding-top: 1px;
+}
+.babianxing{
+    background: url("../imgs/bm_tubiao11.png")center top no-repeat;
+    background-size: 100% 100%;
+    width: 514px;
+    height: 514px;
+    margin: 74px auto;
+    position: relative;
+}
+.bm-tubiao{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 1px;
+    box-sizing: border-box;
+    border: solid 1px #816847;
+    position: absolute;
+    z-index: 10;
+}
+.bm-tubiao a{
+    color: #333;
+    font-size: 16px;
+}
+.bm-tubiao-one-tu{
+    height: 43px;
+    margin-top: 26px;
+    text-align: center;
+    line-height: 43px;
+}
+.bm-tubiao-one-tu img{
+    vertical-align: middle;
+}
+.bm-one{
+    top: -50px;
+    left: 186px;
+    background: #fff;
+}
+.bm-two{
+    top: 8px;
+    left: 4px;
+    background: #fff;
+}
+.bm-three{
+    top: 187px;
+    left: -45px;
+    background: #fff;
+}
+.bm-four{
+    bottom: 15px;
+    left: 4px;
+    background: #fff;
+}
+.bm-five{
+    bottom: -50px;
+    left: 186px;
+    background: #fff;
+}
+.bm-six{
+    bottom: 15px;
+    right: 4px;
+    background: #fff;
+}
+.bm-seven{
+    top: 187px;
+    right: -45px;
+    background: #fff;
+}
+.bm-eight{
+    top: 8px;
+    right: 4px;
+    background: #fff;
+}
+/* 主体结束 */
+
+
+
+
+
+
+/* footer开始 */
+.footer {
+    width: 100%;
+    height: 242px;
+    color: #fff;
+    padding-top: 1px;
+    background:#1e1e20;
+    clear: both;
+}
+.footer_center{
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.left{
+    float: left;
+}
+.left a{
+    color: #333;
+    text-decoration: none;
+}
+.footer_center li{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    background: url("http://quwolvyou.com/templates/default/img/tubiao5.jpg") no-repeat;
+    background-position: center left;
+    padding-left: 16px;
+}
+.sy_wn {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sy_dz {
+    font-size: 14px;
+    line-height: 30px;
+}
+.right {
+    float: right;
+}
+.sy_zi {
+    background: url("http://quwolvyou.com/templates/default/img/dian.png") no-repeat;
+    height: 70px;
+    padding-left: 67px;
+    font-size: 16px;
+    border-bottom: solid 1px #767060;
+}
+.sy_fe {
+    float: right;
+    margin-right: 70px;
+}
+.sy_fe img {
+    border: solid 1px #cec19f!important;
+    padding: 6px!important;
+}
+.sy_fx {
+    width: 100%;
+    height: 1px;
+    background: #767060;
+    margin-top: 35px;
+}
+.sy_fb {
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+}
+.sy_fj {
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+}

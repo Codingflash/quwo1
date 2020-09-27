@@ -1,0 +1,669 @@
+body{
+    font-family: 微软雅黑;
+    background: rgb(240, 246, 242);
+}
+body,h1,h2,h3,h4,h5,h6,ul,li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: none;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+/* 右侧导航栏开始 */
+.ce{
+    width: 32px;
+    background: #191919;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    padding: 23px 0;
+    height: 100%;
+}
+.ce-list {
+    height: 115px;
+    text-align: center;
+    padding-top: 1px;
+    background: #191919;
+    border-bottom: solid 1px #cec19f;
+}
+.ce-list-img1{
+    width: 100%;
+    margin-top: 9px;
+}
+.ce-list-img2{
+    width: 100%;
+    margin-top: 9px;
+    display: none;
+}
+.ce-list-word{
+    margin: 0 auto;
+    font-size: 14px;
+    color: #7f6544;
+    margin-top: 5px;
+    width: 19px;
+    line-height: 15px;
+    height: 60px;
+}
+/* 右侧导航栏结束 */
+/* 头部开始 */
+.head{
+    width: 100%;
+    background: url(../imgs/head.jpg) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding-top: 1px;
+}
+.head-center{
+    width: 73%;
+    height: 64.24px;
+    margin: 0 auto;
+    margin-top: 1%;
+    
+}
+.head-logo{
+    width: 27.8%;
+    float: left;
+}
+.head-logo img{
+    width: 100%;
+    display: block;
+}
+.head-right{
+    float: right;
+    width: 19.5%;
+}
+.head-right img{
+    width: 100%;
+    display: block;
+}
+.sousuo{
+    float: left;
+    width: 14.2%;
+    float: right;
+    text-indent: 1em;
+    border: solid 1px #727272;
+    height: 27px;
+    line-height: 27px;
+    border-radius: 20px;
+    margin-top: 2%;
+    margin-right: 1%;
+}
+.sousuo-input{
+    width: 73%;
+    outline: none;
+    border: none;
+    background: transparent;
+    display: inline-block;
+    padding-top: 5px;
+}
+.suo{
+    margin-top: 4px;
+    outline: none;
+    position: absolute;
+}
+.menu{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+.menu a{
+    font-size: 1.12em;
+    color: #000000;
+    font-weight: 600;
+    margin: 0 1% 0 1%;
+    /* margin-right: 3.8%; */
+    padding: 0.5% 2%;
+    width: 131px;
+}
+/* banner开始 */
+.banner{
+    width: 92.6%;
+    height: 413.751px;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+.box{
+    width: 700%;
+    height: 100%;
+    
+}
+.box a{
+    float: left;
+    width: 14.285%;
+    height: 100%;
+
+}
+.box a img{
+    width: 100%;
+}
+.btns{
+    width: 180px;
+    height: 20px;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    position: absolute;
+}
+.btns li{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    margin-left: 15px;
+    cursor: pointer;
+}
+/* banner结束 */
+/* 头部结束 */
+/* 晋都开始 */
+.jindu{
+    width: 92.7%;
+    height: 133.34px;
+    margin: 0 auto;
+    padding: 30px 0 35px;
+}
+.jindu-list{
+    margin-right: 10%;
+    width: 8%;
+    float: left;
+}
+.jindu-list a{
+    color: #333;
+}
+.jindu-list-img1{
+    width: 100%;
+    display: block;
+}
+.jindu-list-img2{
+    width: 100%;
+    display:none;
+}
+.jindu a span{
+    padding-left: 11%;
+}
+/* 晋都结束 */
+/* 主体部分开始 */
+.zhutibufen{
+    width: 92.6%;
+    margin: 0 auto;
+    height: 382px;
+}
+/* 左侧banner */
+.banner1{
+    position: relative;
+    width: 50%;
+    height: 381.315px;
+    float: left;
+    overflow: hidden;
+
+}
+.box1{
+    width: 700%;
+    height: 100%;
+    
+}
+.box1 a{
+    float: left;
+    width: 14.285%;
+    height: 100%;
+
+}
+.box1 a img{
+    width: 100%;
+}
+.btns1{
+    width: 180px;
+    height: 20px;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    position: absolute;
+}
+.btns1 li{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    margin-left: 15px;
+    cursor: pointer;
+}
+/* 左侧banner结束 */
+.zhuti{
+    height: 381.315px;
+    float: right;
+    width: 48.2%;
+    overflow: hidden;
+}
+.hd{
+    width: 678.06px;
+    height: 28px;
+}
+.tubiao1{
+    float: left;
+    margin-top: 4px;
+}
+
+.zhuti-huodong li{
+    float: left;
+    position: relative;
+    font-size: 19px;
+    padding: 0 10px;
+    border-right: solid 3px #a7a7a7;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+}
+.zhuti-huodong li a{
+    color: #333;
+}
+.xian{
+    width:24%;
+    height: 20px;
+    background: url("../imgs/zhuti-huodong-xian.jpg") repeat;
+    float: left;
+    margin-top: 4px;
+}
+.more1{
+    float: left;
+    margin-top: 6px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+.more1 a{
+    color: #333;
+}
+.bd{
+    width: 678.06px;
+    height: 339px;
+}
+.xinwen{
+    width: 678.06px;
+    height: 339px;
+}
+.xinwen li{
+    width: 678.06px;
+    height: 67.8px;
+    display: list-item;
+    margin-top: 4px;
+    text-align: -webkit-match-parent;
+}
+.date{
+    float: left;
+    background: url("../imgs/date.jpg") no-repeat;
+    background-size: cover;
+    background-position: center top;
+    width: 6%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+}
+.date-top{
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid 1px #fff;
+    font-size: 16px;
+    line-height: 27px;
+}
+.date-bottom{
+    font-size: 12px;
+    height: 23px;
+}
+.neirong{
+    float: right;
+    width: 92%;
+}
+.neirong-title{
+    color: #191919;
+    font-size: 16px;
+    font-weight: 600;
+}
+.neirong-title a{
+    color: #191919;
+}
+.neirong-jianjie{
+    color: #868585;
+    font-size: 12px;
+    line-height: 32px;
+    overflow: hidden;
+    height: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/* 主体部分结束 */
+/* 热门开始 */
+.remen{
+    width: 1407px;
+    height: 678px;
+    margin: auto;
+}
+.remen-name{
+    width: 1407px;
+    height: 70.8px;
+    margin-top: 28px;
+}
+.rm-wenzi{
+    width: 96px;
+    height: 24.8px;
+    float: left;
+}
+.rm-wenzi a{
+    font-size: 19px;
+    color: #333;
+    font-weight: 600;
+}
+.rm-xian{
+    width: 84%;
+    height: 20px;
+    background: url(../imgs/zhuti-huodong-xian.jpg) repeat;
+    float: left;
+    
+}
+.banner2{
+    position: relative;
+    width: 548.6px;height: 275px;
+    float: left;
+    overflow: hidden;
+    margin-right: 8px;
+
+}
+.box2{
+    width: 700%;
+    height: 100%;
+    
+}
+.box2 a{
+    float: left;
+    width: 14.285%;
+    height: 100%;
+
+}
+.box2 a img{
+    width: 100%;
+}
+.btns2{
+    width: 180px;
+    height: 20px;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+    margin: auto;
+    position: absolute;
+}
+.btns2 li{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.remen-list{
+    width: 253px;
+    height: 275px;
+    float: left;
+    padding: 0.3%;
+    background: #fff;
+    width: 18%;
+    margin-right: 1.1%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.remen-list a{
+    color: #333;
+}
+.rm-list-top{
+    width: 100%;
+    overflow: hidden;
+    height: 166px;
+    position: relative;
+}
+
+
+.rm-list-top img:nth-child(1){
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in;
+}
+.rm-list-top img:nth-child(2){
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in;
+
+}
+.rm-list-top:hover img{
+    transform: scale(1.2);
+}
+.rm-list-bottom{
+    width: 100%;
+    height: 108px;
+}
+.rm-list-title{
+    color: #414040;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 4px 0 4px;
+}
+.rm-list-xing{
+    font-size: 14px;
+    color: #828282;
+    height: 26px;
+    margin: 4px 0;
+}
+.rm-list-xing span{
+    color: #fe8d0a;
+}
+
+/* 热门结束 */
+/* 视频开始 */
+.san{
+    width: 1407px;
+    height: 363px;
+    margin: auto;
+}
+.sp{
+    width: 690px;
+    height: 360px;
+    border: 1px solid rgba(75, 71, 37, 0.158);
+    border-top: 2px solid rgba(82, 74, 4);
+    float: left;
+    background: white;
+    margin-right: 10px;
+}
+.sp-top{
+    width: 690px;
+    height: 33px;
+    padding-top: 8px;
+    border-bottom: 1px solid rgba(75, 71, 37, 0.158);
+}
+.sp-top img{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.sp-top span a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.sp-lt{
+    width: 55%;
+    float: left;
+}
+.sp-rt{
+    width: 37%;
+    height: 100%;
+    float: right;
+}
+.sp-rt li{
+background: url("http://quwolvyou.com/templates/default/img/tubiao4.jpg") no-repeat;
+background-position: center left;
+padding-left: 13px;
+display: list-item;
+text-align: -webkit-match-parent;
+line-height: 35px
+}
+.sp-rt li a{
+    color:#333;
+}
+.ly{
+    width: 325px;
+    height: 360px;
+    float: left;
+    border: 1px solid rgba(75, 71, 37, 0.158);
+    border-top: 2px solid rgba(82, 74, 4);
+    background: white;
+    margin-right: 10px;
+}
+.ly-top{
+    width: 100%;
+    height: 33px;
+    border-bottom: 1px solid rgba(75, 71, 37, 0.158);
+    padding-top: 8px;
+}
+.ly-top img{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.ly-top span{
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.map{
+    width: 100%;
+    height: 275px;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+}
+.fw{
+    width: 358px;
+    height: 360px;
+    float: left;
+    border: 1px solid rgba(75, 71, 37, 0.158);
+    border-top: 2px solid rgba(82, 74, 4);
+    background: white;
+}
+.fw-top{
+    width: 100%;
+    height: 33px;
+    padding-top: 8px;
+    border-bottom: 1px solid rgba(75, 71, 37, 0.158);
+
+}
+.fw-top img{
+    margin-left: 20px;
+    vertical-align: middle;
+}
+.fw-top span a{
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+}
+.fw-list{
+    width: 158px;
+    height: 60px;
+    float: left;
+    margin-left: 4%;
+    margin-bottom: 2.5%;
+    border: 1px solid rgba(75, 71, 37, 0.158);
+}
+.fw-list img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 视频结束 */
+
+/* footer开始 */
+.footer {
+    width: 100%;
+    height: 242px;
+    color: #fff;
+    padding-top: 1px;
+    background:#1e1e20;
+}
+.footer_center{
+    width: 93%;
+    margin: 0 auto;
+    margin-top: 34px;
+}
+.left{
+    float: left;
+}
+.left a{
+    color: #333;
+    text-decoration: none;
+}
+.footer_center li{
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    background: url("http://quwolvyou.com/templates/default/img/tubiao5.jpg") no-repeat;
+    background-position: center left;
+    padding-left: 16px;
+}
+.sy_wn {
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.sy_dz {
+    font-size: 14px;
+    line-height: 30px;
+}
+.right {
+    float: right;
+}
+.sy_zi {
+    background: url("http://quwolvyou.com/templates/default/img/dian.png") no-repeat;
+    height: 70px;
+    padding-left: 67px;
+    font-size: 16px;
+    border-bottom: solid 1px #767060;
+}
+.sy_fe {
+    float: right;
+    margin-right: 70px;
+}
+.sy_fe img {
+    border: solid 1px #cec19f!important;
+    padding: 6px!important;
+}
+.sy_fx {
+    width: 100%;
+    height: 1px;
+    background: #767060;
+    margin-top: 35px;
+}
+.sy_fb {
+    float: left;
+    font-size: 12px;
+    line-height: 40px;
+}
+.sy_fj {
+    float: right;
+    font-size: 12px;
+    line-height: 40px;
+}

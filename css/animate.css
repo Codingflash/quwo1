@@ -1,0 +1,127 @@
+@keyframes tor{
+    from{
+        transform: translateX(-1000px);  
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity:1;
+    }
+}
+
+
+.tor{
+    transform:translateX(-1000px);  /*这里的设置是为了设置动画前的状态，为了动画衔接流畅，一般使其与from中的属性设置相同*/
+    opacity: 0;
+    animation: tor 1.6s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes tol{
+    from{
+        transform: translateX(1000px);  
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity:1;
+    }
+}
+
+
+.tol{
+    transform:translateY(1000px); 
+    opacity: 0;
+    animation: tol 1.6s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes tou{
+    from{
+        transform: translateY(1000px); 
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+
+
+.tou{
+    transform:translateX(1000px); 
+    opacity: 0;
+    animation: tou 1.6s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes tou1{
+    from{
+        transform: translateY(100%); 
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+
+
+.tou1{
+    transform:translateX(100%); 
+    opacity: 0;
+    animation: tou1 1.6s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes tob{
+    from{
+        opacity: 0;
+        transform: scale(0.2)  
+    }
+    to{
+        transform: scale(1);
+        opacity:1;
+    }
+}
+
+
+.tob{
+    opacity: 1;
+    transform: scale(0.2); 
+    animation: tob 1.6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes todown{
+    from{
+        transform: translate3d(0, -100%, 0);
+    }
+    to{
+        transform: translate3d(0, 0, 0);
+    }
+}
+.todown{
+    animation: todown;
+    transform: translate3d(0, 0, 0);
+}
+@keyframes todown1{
+    from{
+        transform: translateY(-1000px); 
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity:1;
+    }
+}
+
+
+.todown1{
+    transform:translateX(-1000px); 
+    opacity: 0;
+    animation: todown1 1.6s;
+    animation-fill-mode: forwards;
+    
+}
